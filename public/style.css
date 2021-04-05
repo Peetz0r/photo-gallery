@@ -1,5 +1,9 @@
+* {
+color: #eea !important; /* yolo */
+}
+
 body {
-	background-color: white;
+	background-color: black;
 	font-family: sans-serif;
 	margin: 0px;
 	padding: 0px;
@@ -16,8 +20,7 @@ body {
 }
 
 .header {
-	background-color: #003e00;
-	color: white;
+	background-color: #333;
 }
 
 h1 {
@@ -26,7 +29,6 @@ h1 {
 
 h1 a {
 	text-decoration: none;
-	color: white;
 }
 
 h1 a:hover {
@@ -36,6 +38,7 @@ h1 a:hover {
 .logo {
 	float: right;
 	text-decoration: none;
+	margin-top: 8px;
 }
 
 h2 {
@@ -93,7 +96,6 @@ img.large {
 	justify-content: center;
 	text-align: center;
 
-	color: white;
 	text-decoration: none;
 	font-size: 48px;
 
@@ -115,7 +117,7 @@ img.large {
 }
 
 .pagination {
-	background-color: rgb(230, 230, 230);
+	background-color: #444;
 	font-size: 20px;
 }
 
@@ -125,7 +127,7 @@ img.large {
 }
 
 .previousPage:hover, .nextPage:hover {
-	background-color: rgb(213, 213, 213);
+	background-color: #333;
 }
 
 .previousPage {
