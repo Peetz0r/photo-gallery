@@ -77,7 +77,7 @@ img.photo {
 }
 
 img.large {
-	height: 100%;
+	height: calc(100% - 54px - 48px); /* 100% - dl height - margins) */
 	width: 100%;
 	object-fit: contain;
 	margin: 0px;
@@ -97,15 +97,15 @@ img.large {
 	text-align: center;
 
 	text-decoration: none;
-	font-size: 48px;
+	font-size: 64px;
 
-	transition: background-color 70ms;
-	background-color: rgba(0, 0, 0, 0.21);
+	transition: opacity 250ms;
+	opacity: 0.4;
 }
 
 .previous:hover, .next:hover {
-	transition: background-color 70ms;
-	background-color: rgba(0, 0, 0, 0.81);
+	transition: opacity 250ms;
+	opacity: 0.8;
 }
 
 .previous {
@@ -140,4 +140,29 @@ img.large {
 
 .clear {
 	clear: both;
+}
+
+dl {
+	display: flex;
+	flex-flow: column wrap;
+	height: 54px;
+	margin: 0;
+	padding: 24px;
+	background-color: #444;
+
+	overflow-x: auto;
+	scrollbar-color: #666 #000;
+	scrollbar-width: thin;
+}
+
+dt {
+	margin: 0;
+	font-size: 60%;
+	line-height: 24px;
+	padding-right: 24px;
+}
+
+dd {
+	margin: 0;
+	padding-right: 24px;
 }
