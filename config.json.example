@@ -4,9 +4,9 @@
 	},
 	"pictureFolder": "/path/to/photos",
 	"thumbnails": {
-		"height": 300,
-		"quality": 60
+		"height": 276,
+		"quality": 75
 	},
-	"pathPrefix": "/projectgalerij",
+	"pathPrefix": "",
 	"paginationThreshold": 100
 }
