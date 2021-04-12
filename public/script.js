@@ -19,7 +19,7 @@ document.onkeydown = function(e) {
 window.addEventListener('load', function() {
   const im = document.querySelector('img.large')
   const dl = document.querySelector('dl');
-  const f = new Intl.NumberFormat('en-US');
+  const f = new Intl.NumberFormat('en-US', {'useGrouping': false});
 
   if (im) {
     EXIF.getData(im, function() {
