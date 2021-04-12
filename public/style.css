@@ -84,7 +84,7 @@ img.photo {
 }
 
 img.large {
-	height: calc(100% - 54px - 8px); /* 100% - dl height - margins) */
+	height: calc(100% - 60px - 8px); /* 100% - dl height - margins) */
 	width: 100%;
 	object-fit: contain;
 	margin: 0px;
@@ -152,9 +152,9 @@ img.large {
 dl {
 	display: flex;
 	flex-flow: column wrap;
-	height: 54px;
+	height: 60px;
 	margin: 0;
-	padding: 4px 12px;
+	padding: 8px 12px 0px;
 	background-color: #444;
 
 	overflow-x: auto;
